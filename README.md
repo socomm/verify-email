@@ -17,5 +17,6 @@ This program requires the following python modules:
 
 # Usage #
 
-./verify-email.py user@domain.com
+./verify-email.py user_name@example.com
 
+Script will return 0 on valid email address, non-zero on invalid email address.

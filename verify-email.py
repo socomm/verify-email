@@ -41,8 +41,8 @@ telnet.write('quit\n')
 return_code = (telnet.read_all().split('\n')[-3]).split(' ')[0]
 
 if return_code != '250':
-    print '%r is *NOT* a valid recpient on %s' % (str(sys.argv[1]), domain)
+    print '%r is *NOT* a valid recipient on %s' % (str(sys.argv[1]), domain)
     sys.exit(2)
 else:
-    print '%r is a valid recpient on %s' % (str(sys.argv[1]), domain)
+    print '%r is a valid recipient on %s' % (str(sys.argv[1]), domain)
     sys.exit(0)
