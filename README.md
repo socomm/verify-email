@@ -1,7 +1,11 @@
 # Overview #
 
-**verify-email** is an Open-Source command-line utility designed to help verify 
-an e-mail address. 
+**verify-email** is command-line utility designed to help verify an e-mail 
+address.
+
+Simply provide the user's email address and the script will connect to the 
+user's domain mail-exchange server, via SMTP, and verify the user's mailbox 
+exists.
 
 # License #
 
